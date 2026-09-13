@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DK Industry | Precision Agricultural Cutters</title>
+<meta name="description" content="DK Industry — professional hand chilli cutters and corn cutters from Shree Hari Industrial Area.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+ --bg:#0a0b0c;--panel:#111315;--panel2:#16191b;--line:#292d2f;
+ --gold:#c8a96b;--gold2:#ead8aa;--white:#f5f2eb;--muted:#9da09e;
+}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--white);font-family:"DM Sans",sans-serif}
+a{color:inherit;text-decoration:none}.container{width:min(1180px,88%);margin:auto}
+nav{height:78px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #ffffff12;position:fixed;top:0;left:0;right:0;z-index:20;background:#0a0b0ce8;backdrop-filter:blur(18px)}
+.logo{font-family:Manrope;font-size:25px;font-weight:800;letter-spacing:-1px}.logo span{color:var(--gold)}
+.navlinks{display:flex;gap:32px;color:#bfc0bd;font-size:14px;font-weight:600}.navlinks a:hover{color:var(--gold2)}
+.navbtn{border:1px solid #ffffff22;padding:11px 17px;border-radius:8px;font-size:13px;font-weight:700}
+.hero{min-height:100vh;padding-top:78px;display:grid;grid-template-columns:1.02fr .98fr;align-items:center;gap:70px;position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;width:600px;height:600px;border-radius:50%;background:#c8a96b10;filter:blur(80px);right:-180px;top:100px;pointer-events:none}
+.eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;font-weight:800;text-transform:uppercase}
+h1,h2,h3{font-family:Manrope,sans-serif}h1{font-size:clamp(48px,6.3vw,82px);line-height:1.02;letter-spacing:-4px;margin:18px 0 25px}
+h1 span{color:var(--gold)}.hero p{font-size:18px;line-height:1.75;color:var(--muted);max-width:570px}
+.actions{display:flex;gap:13px;margin-top:32px}.btn{padding:14px 22px;border-radius:8px;font-weight:800;font-size:14px}
+.primary{background:var(--gold);color:#17130b}.secondary{border:1px solid #ffffff20;color:var(--white)}
+.product-visual{height:570px;border:1px solid #ffffff12;border-radius:22px;background:linear-gradient(145deg,#191c1e,#0d0f10);position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center}
+.product-visual:before{content:"DK";position:absolute;font:800 240px Manrope;color:#ffffff03;letter-spacing:-20px}
+.machine{width:68%;height:68%;border:2px solid #9b9d9a55;border-radius:28px;transform:rotate(-7deg);position:relative;box-shadow:0 35px 70px #000; background:linear-gradient(145deg,#363a3b,#111314)}
+.machine:before{content:"DK INDUSTRY";position:absolute;left:20px;top:25px;color:var(--gold);font-weight:800;letter-spacing:2px;font-size:12px}
+.machine .blade{position:absolute;right:10%;top:18%;width:10px;height:68%;border-radius:8px;background:linear-gradient(#eee,#777,#ddd);transform:rotate(11deg);box-shadow:0 0 22px #fff3}
+.machine .handle{position:absolute;width:28%;height:28%;border:14px solid #242729;border-radius:50%;right:-7%;bottom:-8%}
+.machine .base{position:absolute;left:12%;right:12%;height:13%;bottom:10%;background:#242728;border-radius:12px}
+.badge{position:absolute;right:22px;top:22px;border:1px solid #c8a96b66;color:var(--gold2);padding:10px 13px;border-radius:100px;font-size:11px;font-weight:800;letter-spacing:1px}
+section{padding:105px 0}.sectiontop{text-align:center;max-width:680px;margin:0 auto 50px}.sectiontop h2{font-size:45px;letter-spacing:-2px;margin:13px 0}.sectiontop p{color:var(--muted);line-height:1.75}
+.products{display:grid;grid-template-columns:1fr 1fr;gap:22px}.card{background:var(--panel);border:1px solid #ffffff10;border-radius:20px;padding:34px;position:relative;overflow:hidden}.card:after{content:"";position:absolute;width:180px;height:180px;border-radius:50%;background:#c8a96b08;right:-70px;bottom:-70px}
+.number{color:#5f625f;font-size:13px;font-weight:800}.card h3{font-size:28px;margin:45px 0 12px}.card p{color:var(--muted);line-height:1.7;max-width:450px}.specs{display:flex;gap:10px;flex-wrap:wrap;margin-top:25px}.spec{border:1px solid #ffffff12;border-radius:7px;padding:8px 11px;font-size:12px;color:#c6c7c3}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}.darkbox{background:linear-gradient(145deg,#17191a,#0e1011);border:1px solid #ffffff10;border-radius:22px;padding:50px}
+.darkbox h2{font-size:42px;letter-spacing:-2px;margin:12px 0 20px}.darkbox p{color:var(--muted);line-height:1.8}
+.features{display:grid;gap:15px}.feature{padding:22px;border-bottom:1px solid #ffffff10}.feature b{display:block;margin-bottom:7px}.feature span{font-size:14px;color:var(--muted);line-height:1.6}
+.contact{background:linear-gradient(135deg,#181714,#0e0f0f);border:1px solid #c8a96b30;border-radius:24px;padding:55px;display:flex;justify-content:space-between;align-items:center;gap:40px}.contact h2{font-size:40px;letter-spacing:-2px;margin:10px 0}.contact p{color:var(--muted)}
+footer{border-top:1px solid #ffffff10;padding:30px 0;color:#777a77;font-size:13px}.footerin{display:flex;justify-content:space-between}
+@media(max-width:800px){
+ .navlinks{display:none}.hero,.split,.products{grid-template-columns:1fr}.hero{padding-top:120px;padding-bottom:60px;gap:35px}.product-visual{height:400px}
+ section{padding:75px 0}h1{letter-spacing:-2px}.contact{padding:32px;display:block}.contact .btn{display:inline-block;margin-top:10px}.footerin{display:block}
+}
+</style>
+</head>
+<body>
+<nav>
+  <div class="container" style="display:flex;align-items:center;justify-content:space-between;width:100%">
+    <a class="logo" href="#">DK <span>INDUSTRY</span></a>
+    <div class="navlinks"><a href="#products">Products</a><a href="#quality">Quality</a><a href="#contact">Contact</a></div>
+    <a class="navbtn" href="#contact">Enquire Now</a>
+  </div>
+</nav>
+
+<main>
+<section class="hero container">
+  <div>
+    <div class="eyebrow">ENGINEERED FOR PERFORMANCE</div>
+    <h1>Precision tools.<br><span>Built for work.</span></h1>
+    <p>DK Industry creates dependable agricultural cutting equipment designed for efficient, everyday performance — including hand chilli cutters and corn cutters.</p>
+    <div class="actions"><a class="btn primary" href="#products">Explore Products</a><a class="btn secondary" href="#contact">Contact DK Industry</a></div>
+  </div>
+  <div class="product-visual">
+    <div class="badge">MADE FOR INDUSTRY</div>
+    <div class="machine"><div class="blade"></div><div class="handle"></div><div class="base"></div></div>
+  </div>
+</section>
+
+<section id="products">
+ <div class="container">
+  <div class="sectiontop"><div class="eyebrow">OUR PRODUCTS</div><h2>Simple machines. Serious results.</h2><p>Focused on practical agricultural tools that combine robust construction, ease of use and a professional finish.</p></div>
+  <div class="products">
+   <article class="card"><div class="number">01 / PRODUCT</div><h3>Hand Chilli Cutter</h3><p>A practical hand-operated cutter for efficient chilli processing. Designed for straightforward handling and regular agricultural use.</p><div class="specs"><span class="spec">Hand Operated</span><span class="spec">Compact</span><span class="spec">Durable Build</span></div></article>
+   <article class="card"><div class="number">02 / PRODUCT</div><h3>Corn Cutter</h3><p>A purpose-built cutting solution for corn processing, made with a focus on dependable operation and long-term utility.</p><div class="specs"><span class="spec">Efficient</span><span class="spec">Easy Handling</span><span class="spec">Industrial Use</span></div></article>
+  </div>
+ </div>
+</section>
+
+<section id="quality">
+ <div class="container split">
+  <div class="darkbox"><div class="eyebrow">DK STANDARD</div><h2>Designed with purpose.</h2><p>Every DK Industry product is presented with a focus on useful engineering, reliable construction and a clean professional experience.</p></div>
+  <div class="features">
+   <div class="feature"><b>01 — Practical Engineering</b><span>Tools designed around real working requirements and straightforward operation.</span></div>
+   <div class="feature"><b>02 — Built for Everyday Use</b><span>A sturdy, functional approach suited to regular agricultural processing.</span></div>
+   <div class="feature"><b>03 — Professional Finish</b><span>A clean industrial identity that reflects confidence in the product.</span></div>
+  </div>
+ </div>
+</section>
+
+<section id="contact">
+ <div class="container">
+  <div class="contact">
+   <div><div class="eyebrow">VISIT / ENQUIRE</div><h2>DK Industry</h2><p>Shree Hari Industrial Area</p></div>
+   <a class="btn primary" href="mailto:dkindustry@example.com">Request Information</a>
+  </div>
+ </div>
+</section>
+</main>
+
+<footer><div class="container footerin"><span>© 2026 DK Industry. All rights reserved.</span><span>Hand Chilli Cutter · Corn Cutter</span></div></footer>
+</body>
+</html>
